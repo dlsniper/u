@@ -1,0 +1,14 @@
+{
+  "name": "github.com/dlsniper/u",
+  "description": "Various experiments for IntelliJ Go plugin",
+  "keywords": ["misc"],
+  "homepage": "https://github.com/dlsniper/u",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Florin Patan",
+      "email": "florinpatan@gmail.com",
+      "homepage": "http://florinpatan.ro"
+    }
+  ]
+}
