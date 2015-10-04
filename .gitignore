@@ -1,0 +1,13 @@
+*
+!*.*
+!*/
+.idea/workspace.xml
+.idea/shelf/
+.idea/libraries/GOPATH__u_.xml
+.idea/goLibraries.xml
+dbg/1/dbg
+dbg/2/demo
+dbg/2/demo2
+*.out
+*.test
+*.grind
