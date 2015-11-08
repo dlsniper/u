@@ -1,6 +1,6 @@
 package main
 
-import "github.com/dlsniper/u/demo/multi/m2"
+import "github.com/dlsniper/u/demo/multi/Godeps/_workspace/m2"
 
 func main() {
 	println(message())
