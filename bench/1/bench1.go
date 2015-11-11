@@ -1,5 +1,9 @@
 package bench1
 
+import (
+	demo "github.com/dlsniper/u/bench/4"
+)
+
 func InsertionSort(a []int) {
 	for i := 1; i < len(a); i++ {
 		value := a[i]
@@ -10,6 +14,8 @@ func InsertionSort(a []int) {
 		}
 		a[j+1] = value
 	}
+
+	demo.Main()
 }
 
 func MySort(a []int)[]int {
