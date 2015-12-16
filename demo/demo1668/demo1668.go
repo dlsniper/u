@@ -1,8 +1,26 @@
-package main
+package assignmentCount
 
-func Foo() (int, int) {
-	a, b := 0, 0
-	a, b = 1, 1
-	a, b /= 1, 1 // Should be error: `syntax error: unexpected op=, expecting := or = or comma`
-	return a, b
+/*
+type index interface {
+	Compact(rev int64) map[int]struct{}
 }
+
+type store struct {
+	kvindex index
+}
+
+func (s *store) _(yup int) (keep int) {
+	keep = s.kvindex.Compact(yup)
+	return
+}
+*/
+
+
+func _() (y A) {
+	a := &A{}
+	y = make(A, 10)
+	_ = a
+	return
+}
+
+type A struct {}

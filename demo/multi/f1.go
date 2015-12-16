@@ -1,10 +1,13 @@
 package main
 
-import "github.com/dlsniper/u/demo/multi/Godeps/_workspace/m2"
+import (
+	"m2"
+	"fmt"
+)
 
 func main() {
-	println(message())
-	println(m2.Msg())
+	//println(message())
+	fmt.Println(m2.Msg())
 }
 
 type Demo interface {
