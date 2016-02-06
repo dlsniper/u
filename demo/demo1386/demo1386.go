@@ -39,9 +39,11 @@ func (a Helllo) Hellllo() {
 
 // Demo does things  -> correct
 func Demo() {
+	a := 1
 	_ = func(ctx *fasthttp.RequestCtx) {
 		ctx.Error("Unsupported path", fasthttp.StatusNotFound)
 	}
+	_ = a
 }
 
 //  Demo2 does other things -> incorrect

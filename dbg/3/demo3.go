@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	foo "net/http"
 )
 
 type demo struct {
-	hell string `json:"hello"`
+	hello string `json:"hello"`
+	jello string `json:"jello"`
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -21,9 +21,13 @@ func main() {
 	if a == b {
 		fmt.Printf("demo %d %d", a, b)
 	}
+	d := demo{
+		hello: "hello",
+		jello: "jello",
+	}
+	_ = d
 	handlers := http.NewServeMux()
 	handlers.HandleFunc("/", handler)
 	server := &http.Server{Addr: ":8889", Handler: handlers}
 	log.Fatal(server.ListenAndServe())
-	foo.
 }
