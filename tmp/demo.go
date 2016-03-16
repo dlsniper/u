@@ -1,17 +1,13 @@
 package main
 
-type (
-	Item struct {
-		Name string
-	}
+import "reflect"
 
-	Menu []Item
-)
-
-const demo = 3
+func demo(o interface{}) {
+	t := reflect.TypeOf(o)
+	v := reflect.ValueOf(o)
+	_, _ = t, v
+}
 
 func main() {
-	_ = Menu{
-		{Name: "h1ome"}, // flagged as unnamed field initialization error but it's correct
-	}
+	demo(nil)
 }

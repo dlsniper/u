@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"time"
+	"fmt"
 )
 
 const world = `World`
@@ -16,4 +17,5 @@ func main() {
 		log.Println("Hello " + world + "!")
 		log.Panicf("omfg")
 	}
+	fmt.Printf("%d", 1)
 }
