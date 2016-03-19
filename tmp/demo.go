@@ -1,13 +1,12 @@
 package main
 
-import "reflect"
-
-func demo(o interface{}) {
-	t := reflect.TypeOf(o)
-	v := reflect.ValueOf(o)
-	_, _ = t, v
-}
+import (
+	"fmt"
+)
 
 func main() {
-	demo(nil)
+	token.To
+
+	fmt.Println(fmt.Sprintf("OK")) // OK
+	fmt.Println(fmt.Sprintf(string("NOT OK"))) // Wrong inspection
 }
