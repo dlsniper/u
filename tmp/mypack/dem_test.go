@@ -1,15 +1,19 @@
-package my_test
+package mypack_test
 
-import (
-	"testing"
-)
+import "testing"
 
-func TestDemo(t *testing.T) {
-	var str string
-	var stri = "adjadakdjkdakadkajajakda"
-	for n := 0; n < 10; n++ {
-		str = str +stri
+/*
+
+This crashes my machine when running: go test -bench=. -benchtime 3m
+
+*/
+
+func Benchmark_SpawnRoutines(b *testing.B) {
+	var a = 100
+	var doSomething = func(a int) {
+		a = 1000
 	}
-	t.Logf("%     [1]d thingy %[3]d\n", 1, 2, 3)
-	t.Skipf("%     [1]d thingy %[3]d\n", 1, 2, 3)
+	for i := 0; i < b.N; i++ {
+		go doSomething(a)
+	}
 }
