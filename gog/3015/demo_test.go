@@ -8,3 +8,7 @@ import (
 func TestFetchStuff(t *testing.T) {
 	demo.FetchStuff()
 }
+
+func TestDebugDemo(t *testing.T) {
+	demo.DebugDemo()
+}

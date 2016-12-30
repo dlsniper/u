@@ -1,7 +1,8 @@
 package main
 
-import "github.com/aws/aws-sdk-go/aws"
+func welp(a string) {}
 
 func main() {
-	_ = aws.NewConfig()
+	anInt := "1"
+	welp(anInt)
 }

@@ -1,0 +1,3 @@
+package demodotvend
+
+func HelloDemo() {}
