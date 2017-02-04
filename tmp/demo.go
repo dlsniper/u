@@ -1,8 +1,10 @@
 package main
 
-func welp(a string) {}
+import (
+	"fmt"
+)
 
 func main() {
-	anInt := "1"
-	welp(anInt)
+	demo := "world"
+	fmt.Println("Hello", demo)
 }

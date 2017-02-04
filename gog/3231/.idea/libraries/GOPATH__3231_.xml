@@ -1,0 +1,75 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;3231&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../bitbucket.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../plugin.hosting" />
+      <root url="file://$PROJECT_DIR$/../../../../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../gitlab.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../azul3d.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../goa-adder" />
+      <root url="file://$PROJECT_DIR$/../../../../../k8s.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../apiproject" />
+      <root url="file://$PROJECT_DIR$/../../../../../collectd.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../blitznote.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../cloud.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../gopl.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../rsc.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../goji.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../launchpad.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../code.cloudfoundry.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../git.drogon.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../honnef.co" />
+      <root url="file://$PROJECT_DIR$/../../../../../git.eclipse.org" />
+      <root url="file://$PROJECT_DIR$/../../../.." />
+      <root url="file://$PROJECT_DIR$/../../../../../solc" />
+      <root url="file://$PROJECT_DIR$/../../../../../speter.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../robpike.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../../../obj" />
+      <root url="file://$PROJECT_DIR$/../../../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../9fans.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../go4.org" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../bitbucket.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../plugin.hosting" />
+      <root url="file://$PROJECT_DIR$/../../../../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../gitlab.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../azul3d.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../goa-adder" />
+      <root url="file://$PROJECT_DIR$/../../../../../k8s.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../apiproject" />
+      <root url="file://$PROJECT_DIR$/../../../../../collectd.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../blitznote.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../cloud.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../gopl.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../rsc.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../goji.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../launchpad.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../code.cloudfoundry.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../git.drogon.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../honnef.co" />
+      <root url="file://$PROJECT_DIR$/../../../../../git.eclipse.org" />
+      <root url="file://$PROJECT_DIR$/../../../.." />
+      <root url="file://$PROJECT_DIR$/../../../../../solc" />
+      <root url="file://$PROJECT_DIR$/../../../../../speter.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../robpike.io" />
+      <root url="file://$PROJECT_DIR$/../../../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../../../obj" />
+      <root url="file://$PROJECT_DIR$/../../../../../google.golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../9fans.net" />
+      <root url="file://$PROJECT_DIR$/../../../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../go4.org" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
