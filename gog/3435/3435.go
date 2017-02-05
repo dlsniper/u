@@ -4,10 +4,10 @@ type Demo3 struct {
 	Demo2
 }
 
-func (d *Demo3) Demo3() {}
+func (d *Demo3) Dem3() {}
 
 func main() {
-	a := Demo3{}
-
+	a := &Demo3{}
+	a.Dem1()
 	_ = a
 }
