@@ -1,5 +1,7 @@
 package main
 
+//go:generate demo stuff
+
 type Demo3 struct {
 	Demo2
 }

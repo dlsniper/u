@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	demo := "world"
-	fmt.Println("Hello", demo)
+	mainCmd := 1
+	_ = mainCmd
 }

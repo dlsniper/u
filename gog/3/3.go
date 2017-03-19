@@ -1,11 +1,11 @@
 package main
 
 import (
-	"strings"
-
 	"fmt"
+	"strings"
 )
 
 func main() {
-	fmt.Println(strings.Trim("demo", " "))
+	ohWell := strings.Trim("demo", " ")
+	fmt.Println(ohWell)
 }

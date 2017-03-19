@@ -12,3 +12,5 @@ dbg/2/demo2
 *.out
 *.test
 *.grind
+*.exe
+*.sqlite3

@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	kithttp "github.com/go-kit/kit/transport/http"
+	"github.com/google/flatbuffers/go"
 )
 
 type dem struct {
